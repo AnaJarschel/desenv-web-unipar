@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo CSS</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<!-- Box interno -->
+<style>
+#interno {
+    height: 100px;
+    width: 400px;
+    background-color: rgb(20, 0, 201);
+    color: white;
+}
+</style>
+<body>
+    <main>
+        <!-- Inline - na mesma linha -->
+        <section style="height: 100px; width: 400px;background-color: rgb(41, 205, 255);margin-left: 30%;">
+            <h1 style="color: white;">Inline</h1>
+        </section>
+        <section id="interno">
+            <h1>Box inteno</h1>
+        </section>
+        <section id="externo">
+            <h1>Box Externo</h1>
+            <div>
+                <h1>Box Externo 2</h1>
+                <span>
+                    <h1>Box Externo 3</h1>
+                </span>
+                <h1>Box Externo 4</h1>
+                <p>Exemplo 1</p>
+                <span>
+                    <p>Exemplo 2</p>
+                </span>
+            </div>
+            <button class="btn">
+                Clique aqui
+            </button>
+        </section>
+    </main>
+</body>
+</html>

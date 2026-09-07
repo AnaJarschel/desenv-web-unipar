@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#externo {
+  height: 100px;
+  width: 400px;
+  background-color: #21ffc8;
+  color: #000158;
+  margin: 20px;
+  padding: 20px;
+}
+
+main {
+    height: 100vh;
+    background-color: #585757;
+}
+
+div > h1 {
+    color: white;
+}
+
+span + h1 {
+    color: rgb(115, 255, 0);
+}
+
+h1 ~ p {
+    color: aqua;
+}
+
+.btn {
+    box-sizing: border-box;
+    width: 88px;
+    padding: 10px;
+    background-color: rgb(97, 139, 0);
+    border-radius: 12px;
+    border-width: 0;
+}
+
+.btn:hover {
+    background-color:rgb(76, 104, 12);
+;
+    cursor: pointer;
+}
